@@ -4,20 +4,20 @@ Includes a “Download as PDF” button.
 ---
 
 Key features:
-Auto-detects planning type (trip, event, study plan, etc.)
-Asks clarifying questions before generating a plan
-Human-readable, emoji-enhanced plans (no raw JSON shown to users)
-PDF export with clean margins and line wrapping
+-Auto-detects planning type (trip, event, study plan, etc.)
+-Asks clarifying questions before generating a plan
+-Human-readable, emoji-enhanced plans (no raw JSON shown to users)
+-PDF export with clean margins and line wrapping
 
 ---
 
 Usage:
-Type a task (e.g., “Plan a 3-day trip to Kathmandu for 2 people under 25000 NPR”).
-If needed, answer clarifying questions the agent asks.
-View the final plan and click 📥 Download Plan as PDF.
+-Type a task (e.g., “Plan a 3-day trip to Kathmandu for 2 people under 25000 NPR”).
+-If needed, answer clarifying questions the agent asks.
+-View the final plan and click 📥 Download Plan as PDF.
 
 ---
 
 Notes:
-Uses a Gemini flash model (e.g., gemini-2.5-flash) — use the exact model your API key supports.
-ReportLab is used for PDF generation (Unicode/font support). Place DejaVuSans.ttf in the project if you need emoji/unicode preserved in PDFs.
+-Uses a Gemini flash model (e.g., gemini-2.5-flash) — use the exact model your API key supports.
+-ReportLab is used for PDF generation (Unicode/font support). Place DejaVuSans.ttf in the project if you need emoji/unicode preserved in PDFs.
